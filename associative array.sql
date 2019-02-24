@@ -135,5 +135,3 @@ BEGIN
       dbms_output.put_line(v_emp_idx_name('Stiles').employee_id);
       dbms_output.put_line(v_emp_idx_name.count);
 END;
-      
-----comments
