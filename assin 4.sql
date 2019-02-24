@@ -112,7 +112,7 @@ WHERE a.amt>(SELECT AVG(b.amt) FROM orders b WHERE a.cnum=b.cnum)
 SELECT * FROM orders
 WHERE amt>(SELECT AVG(amt) FROM orders)
 
---114.  List all customers with ratings above San Jose’s average.
+--114.  List all customers with ratings above San Joseâ€™s average.
 
 SELECT * FROM customers
 WHERE rating>(SELECT AVG(rating) FROM customers WHERE city='San Jose')
@@ -179,4 +179,4 @@ SELECT *
          WHERE A.SNUM = B.SNUM)
  WHERE RANKS = 1
 
-
+--editing
