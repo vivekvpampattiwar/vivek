@@ -1,4 +1,4 @@
---94.  Evaluate the following query:
+﻿--94.  Evaluate the following query:
 
 SELECT * FROM orders WHERE NOT ((trunc(Odate) =to_date( '10/03/1996','mm/dd/yyyy') AND Snum>1002) OR amt>2000);   
 
@@ -179,4 +179,4 @@ SELECT *
          WHERE A.SNUM = B.SNUM)
  WHERE RANKS = 1
 
---editing
+----state
